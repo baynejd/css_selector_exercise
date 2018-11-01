@@ -1,0 +1,75 @@
+
+.header-deco{
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+ img{
+
+width: 35%;
+
+ }
+
+
+#firstH1Color{
+  color: purple;
+  font;
+}
+
+
+a{
+  color: blue;
+}
+
+a:visited{
+  color: green;
+}
+
+
+.ulBullremove{
+  list-style-type: none;
+}
+
+
+ol > li:last-child{
+  font-weight: bold;
+}
+
+
+.hoveranchor:hover {
+    color: red;
+}
+
+a:hover {
+  color: orange;
+}
+
+ul > li{
+  font-style: italic;
+}
+
+
+.centered-wrapper {
+    position: relative;
+    text-align: center;
+}
+.centered-wrapper:before {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 0; height: 100%;
+    vertical-align: middle;
+}
+.centered-content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.centerBullets {
+
+    list-style-position: inside;
+}
+
+#hardDiv{
+  background-color: rgba(0,0,0,.5);
+}
